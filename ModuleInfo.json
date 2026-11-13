@@ -1,0 +1,18 @@
+{
+  "Name": "SMG2 WaterRoad",
+  "Author": "Super Hackio",
+  "Description": "The water transport tube from Sea Slide Galaxy",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "NameObjFactory": [
+        {
+          "Name": "WaterRoad",
+          "Function": "createExtActor<WaterRoad>",
+          "Include": "Game/Map/WaterRoad.h"
+        }
+      ]
+    }
+  ]
+}
